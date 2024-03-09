@@ -1,0 +1,330 @@
+/**
+* Template Name: Restaurantly - v3.3.0
+* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Monlam", sans-serif;
+  background: #f5f5f7;
+  color: #636366;
+  font-size: 13.5px;
+  line-height: 28px;
+}
+
+a {
+  color: #000000b8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #414141;
+  text-decoration: none;
+}
+h1, h2, h3, h4 {
+  font-family: "Monlam U2", Georgia;
+  font-weight: 600;
+}
+h5, h6{
+  font-family: "Monlam DicA2021", Georgia;
+  font-weight: 600;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+  position: relative;
+  top: 6px;
+}
+img.main-logo {
+  margin-right: 10px;
+}
+@media (max-width: 768px){
+  #toggleMobileMenu {
+  
+    background-image: url("../img/back-logo1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  
+  }
+  .text-end {
+    text-align: left !important;
+}
+}
+
+
+.p-4.p-md-5.mb-4.text-white.rounded.bg-dark {
+  margin-top: 50px;
+}
+
+a.footer-a{
+  color: rgb(255, 255, 255);
+}
+
+a.footer-a:hover{
+  color: rgb(6, 141, 204);
+}
+h5, .h5 {
+  font-size: 1.25rem;
+  line-height: 34px;
+}
+h3, .h3 {
+  line-height: 47px;
+}
+
+h6, .h6 {
+  font-family: Monlam;
+ 
+}
+
+@media (min-width: 1400px){
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1020px;
+  }
+  img.news-rom-image {
+    width: 100%;
+    max-height: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+  img.news-rom-image-3 {
+    width: 100%;
+    max-height: 50%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .fs-4 {
+    font-size: 2rem !important;
+    font-family: 'Monlam U2';
+}
+}
+
+@media (min-width: 1200px){
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 1040px;
+      
+  }
+  
+  h1, .h1 {
+    font-size: 2.3rem;
+    line-height: 60px;
+  }
+  h3, .h3 {
+    font-size: 1.40rem;
+    font-weight: 600;
+    line-height: 40px;
+    }
+    h4, .h4 {
+      font-size: 1.3rem;
+      line-height: 38px;
+    }
+    img.news-rom-image {
+      width: 100%;
+      max-height: 50%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px 10px 0px 0px;
+    }
+    img.news-rom-image-3 {
+      width: 100%;
+      max-height: 50%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px 10px 0px 0px;
+    }
+    .fs-4 {
+      font-size: 2rem !important;
+      font-family: 'Monlam U2';
+  }
+}
+
+
+@media (max-width: 992px) {
+  img.news-rom-image {
+    width: 100%;
+    max-height: 50%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+  img.news-rom-image-3 {
+    width: 100%;
+    max-height: 50%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+  h4, .h4 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
+  }
+  h3, .h3 {
+    font-size: 22px;
+    
+  }
+  .fs-4 {
+    font-size: 1.8rem !important;
+    font-family: 'Monlam U2';
+}
+
+}
+
+
+@media (min-width: 992px) {
+  
+  
+  h1, .h1 {
+    font-size: 1.0rem;
+    line-height: 60px;
+  }
+  h3, .h3 {
+    font-size: 22px;
+    line-height: 38px;
+  }
+  h4, .h4 {
+    font-size: 20px;
+    line-height: 33px;
+  }
+  img.news-rom-image {
+    width: 100%;
+    max-height: 50%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+  img.news-rom-image-3 {
+    width: 100%;
+    max-height: 50%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .fs-4 {
+    font-size: 1.8rem !important;
+    font-family: 'Monlam U2';
+}
+}
+
+@media (max-width: 768px) {
+  
+  h1, .h1 {
+    font-size: 1.3rem;
+    line-height: 60px;
+  }
+  h3, .h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  h4, .h4 {
+    font-size: 20px;
+    line-height: 38px;
+  }
+  img.news-rom-image {
+    width: 100%;
+    max-height: 50%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+  img.news-rom-image-3 {
+    width: 100%;
+    max-height: 50%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .fs-4 {
+    font-size: 1.5rem !important;
+    font-family: 'Monlam U2';
+    }
+}
+
+@media (max-width: 576px) {
+
+  h1, .h1 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  img.news-rom-image {
+    width: 100%;
+    max-height: 50%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+  img.news-rom-image-3 {
+    width: 100%;
+    max-height: 50%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .fs-4 {
+    font-size: 1.5rem !important;
+    font-family: 'Monlam U2';
+    }
+}
+@media (min-width: 476px) {
+
+  h1, .h1 {
+    font-size: 24px;
+    line-height: 38px;
+  }
+  
+}
+span.add-cotegory {
+  float: right;
+}
+.form-control {
+  line-height: 30px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 28px;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control-sm {
+  min-height: calc(1.5em + 0.5rem + 2px);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+  line-height: 28px;
+}
+
+.rounded-m-4 {
+  border-radius: 10px !important;
+  border: 1px solid rgba(0,0,0,.08);
+  box-shadow: 0 5px 5px rgb(0 0 0 / 2%);
+}
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #f8f8f8;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 30%);
+}
